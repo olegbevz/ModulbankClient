@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+    <metadata>
+        <id>ModulbankClient</id>
+        <version>1.0.0</version>
+        <title>Client library for Modulbank API</title>
+        <projectUrl>https://github.com/olegbevz/ModulbankClient</projectUrl>
+        <owners>Oleg Bevz</owners>
+        <authors>Oleg Bevz</authors>
+        <tags>Modulbank</tags>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Small C# library for Modulbank API: https://api.modulbank.ru</description>
+        <language>en-US</language>
+        <dependencies>
+            <group targetFramework="net45">
+                <dependency id="Newtonsoft.Json" version="10.0.3" />
+            </group>
+        </dependencies>
+        <references>
+            <group targetFramework="net45">
+                <reference file="ModulbankClient.dll" />
+            </group>
+        </references>
+        <copyright>Copyright (c) 2017 Oleg Bevz</copyright>
+    </metadata>
+    <files>
+        <file src="ModulbankClient.dll" target="lib\net45\ModulbankClient.dll" />
+        <file src="ModulbankClient.pdb" target="lib\net45\ModulbankClient.pdb" />
+    </files>
+</package>

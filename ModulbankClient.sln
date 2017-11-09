@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModulbankClient", "ModulbankClient\ModulbankClient.csproj", "{468F3363-75B9-4ECC-A331-58DDF3CDC79F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModulbankClient.Examples", "ModulbankClient.Examples\ModulbankClient.Examples.csproj", "{2109543A-C504-408B-B743-D08A305284C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{468F3363-75B9-4ECC-A331-58DDF3CDC79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468F3363-75B9-4ECC-A331-58DDF3CDC79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468F3363-75B9-4ECC-A331-58DDF3CDC79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468F3363-75B9-4ECC-A331-58DDF3CDC79F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2109543A-C504-408B-B743-D08A305284C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2109543A-C504-408B-B743-D08A305284C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2109543A-C504-408B-B743-D08A305284C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2109543A-C504-408B-B743-D08A305284C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D31F202-16AA-4BB6-839D-5E4DBACCF558}
+	EndGlobalSection
+EndGlobal
